@@ -1,0 +1,12 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 60px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+    background: var(--background-color-3);
+    color: var(--text-color-3);
+}
