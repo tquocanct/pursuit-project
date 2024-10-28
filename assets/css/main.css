@@ -4448,6 +4448,29 @@ select {
   line-height: 30px; /* 150% */
 }
 
+.popular {
+  padding-top: 150px;
+}
+.popular__title {
+  color: var(--Text-Color-2);
+  font-family: "Roboto Slab";
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.24; /* 123.81% */
+  margin-bottom: 18px;
+}
+.popular__desc {
+  width: 470px;
+  color: var(--text-color-4);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67; /* 166.667% */
+}
+.popular__btn {
+  width: 158px;
+  height: 60px;
+}
+
 * {
   --background-color-1: #005d63;
   --background-color-2: #f1deb4;
@@ -4456,6 +4479,7 @@ select {
   --text-color-1: #fff;
   --Text-Color-2: #131717;
   --text-color-3: #005d63;
+  --text-color-4: #566363;
   --background-color-yellow: #ffd44d;
 }
 

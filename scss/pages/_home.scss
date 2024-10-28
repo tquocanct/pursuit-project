@@ -66,3 +66,25 @@
         }
     }
 }
+.popular {
+    padding-top: 150px;
+    &__title {
+        color: var(--Text-Color-2);
+        font-family: "Roboto Slab";
+        font-size: 4.2rem;
+        font-weight: 700;
+        line-height: 1.24; /* 123.81% */
+        margin-bottom: 18px;
+    }
+    &__desc {
+        width: 470px;
+        color: var(--text-color-4);
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1.67; /* 166.667% */
+    }
+    &__btn {
+        width: 158px;
+        height: 60px;
+    }
+}
